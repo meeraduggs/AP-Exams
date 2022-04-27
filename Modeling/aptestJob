@@ -1,0 +1,19 @@
+#!/bin/bash
+
+####################
+# SBATCH OPTIONS
+####################
+#SBATCH --job-name=example              # job name fore queue, default may be u$
+#SBATCH --partition=low                 # high/low/gpu, default if empty is low
+#SBATCH --error=ap-job-test.err         # error file, default if empty is slurm$
+#SBATCH --output=ap-job-test.out        # standard out file, no default
+#SBATCH --time=30:00:00                 # optional, max runtime of job hours:minutes:seconds
+#SBATCH --nodes=1                       # only use 1 node, MPI option
+#SBATCH --ntasks=1                      # how many tasks to start
+#SBATCH --cpus-per-task=16              # number of cores to use, multi-core/mu$
+
+####################
+# What to run
+####################
+
+python ap-job-test.py > ap-job-test.out
