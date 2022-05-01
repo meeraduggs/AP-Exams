@@ -2,10 +2,10 @@
 
 We will be using AP scores as our response variable and using poverty and other variables to see if we can predict how different students will do on their AP Exams. 
 
-![PctParticipation](/AP-Exams/Pictures/PctParticipation.png)
+![PctParticipation](/Pictures/PctParticipation.png)
 
 
-![PctPop](/AP-Exams/Pictures/PctPop.png)
+![PctPop](/Pictures/PctPop.png)
 
 
 # nothing 
