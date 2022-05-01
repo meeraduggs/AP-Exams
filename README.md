@@ -2,21 +2,19 @@
 
 We will be using AP scores as our response variable and using poverty and other variables to see if we can predict how different students will do on their AP Exams. 
 
-# Motivation 
-
-
+## Motivation 
 
 
 # Project Goal
 
+What school characteristics can best explain AP Exam participation? 
 
 # Data Collection 
 
 
 
 # Data Availability and Bias 
-
-
+![msno_complete](/Images/msno_complete.png) 
 
 
 
@@ -27,13 +25,13 @@ We will be using AP scores as our response variable and using poverty and other 
 
 
 
-![PctParticipation](/Pictures/PctParticipation.png)
+![PctParticipation](/Images/PctParticipation.png)
 
 ### School Population by Race and Year 
 
 
 
-![PctPop](/Pictures/PctPop.png)
+![PctPop](/Images/PctPop.png)
 
 
 # Mapping 
@@ -42,7 +40,7 @@ We will be using AP scores as our response variable and using poverty and other 
 # Modeling 
 
 ## Entity-Demeaned Fixed Effect Regression 
-$ \beta $ 
+
 
 
 
@@ -59,7 +57,7 @@ Our best model: Year + %Black + %Hispanic + %Indigenous_American + %Multiracial 
 
 
 
-![BackwardsOutcome](/Pictures/backwards.png)
+![BackwardsOutcome](/Images/backwards.png)
 
 
 We can see that there is a 
